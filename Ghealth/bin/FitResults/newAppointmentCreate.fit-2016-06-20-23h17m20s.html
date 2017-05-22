@@ -1,0 +1,207 @@
+<html><head><title>Suite newAppointmentCreate.fit run at: Mon Jun 20 23:17:22 IDT 2016</title>
+	<link rel="stylesheet" type="text/css" href="css/fitnesse.css" media="screen"/>
+ 	<link rel="stylesheet" type="text/css" href="css/fitnesse.css" media="print"/>
+<script language="JavaScript" type="text/javascript">
+var collapsableOpenCss = "collapsable"
+var collapsableClosedCss = "hidden"
+var collapsableOpenImg = "images/collapsableOpen.gif"
+var collapsableClosedImg = "images/collapsableClosed.gif"
+function toggleCollapsable(id){
+var div = document.getElementById(id);
+var img = document.getElementById("img" + id);
+if(div.className.indexOf(collapsableClosedCss) != -1) {
+div.className = collapsableOpenCss;
+img.src = collapsableOpenImg;
+} else {
+div.className = collapsableClosedCss;
+img.src = collapsableClosedImg;
+} }
+</script>
+
+</head>
+<body>
+<div> Suite is: /Users/ladymey/Ghealth/Ghealth/AcceptenceTest/FitTests/newAppointmentCreate.fit</div><div class="test_output_name">Name: newAppointmentCreate.fit</div><div> Suite executed at: Mon Jun 20 23:17:22 IDT 2016 Elapsed time: 1 seconds 346 millseconds  </div><table><tr><td></td><td><a href="#3e0c13f4:1556f75d9ed:-8000">newAppointmentCreate.fit</a></td><td class="pass">5 right, 0 wrong, 0 ignored, 0 exceptions</td></tr></table><div class="test_output_name"><a name="3e0c13f4:1556f75d9ed:-8000"/><p>Test file: newAppointmentCreate.fit</p></div><html>
+	<head>
+	</head>
+	<body>
+		<p>
+			&nbsp;</p>
+		<p>
+			<u><strong>Add new appointmenet - The Table PLEASE SEE AddNewApptUSECASE for use case!!!!</strong></u></p>
+		<p>
+			&nbsp;</p>
+		<table border="1" cellpadding="1" cellspacing="1" style="width: 200px;">
+			<tbody>
+				<tr>
+					<td>
+						fit.ActionFixture</td>
+					<td>
+						&nbsp;</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						start</td>
+					<td>
+						FIXTURES.client.AppointmentController</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						start createNewAppointment</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						doctor type</td>
+					<td>
+						Eyes</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						select doctor type&nbsp;</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						doctor type available for patient</td>
+					<td class="pass">
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						clinic ID &nbsp;and Doctor</td>
+					<td>
+						1</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						date</td>
+					<td>
+						2016-06-22</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						choose date</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						valid date</td>
+					<td class="pass">
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						hour</td>
+					<td>
+						09:30</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						create appointment</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						appointment created</td>
+					<td class="pass">
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						start createNewAppointment</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						doctor type</td>
+					<td>
+						Eyes</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						select doctor type</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						doctor type available for patient&nbsp;</td>
+					<td class="pass">
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						clinic ID and Doctor</td>
+					<td>
+						1</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						date</td>
+					<td>
+						2016-05-22</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						valid date</td>
+					<td>
+						false</td>
+				</tr>
+				<tr>
+					<td>
+						check&nbsp;</td>
+					<td>
+						appointment created</td>
+					<td class="pass">
+						false</td>
+				</tr>
+			</tbody>
+		</table></body>
+</html>
+
+</body></html>

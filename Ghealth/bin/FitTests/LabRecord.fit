@@ -1,0 +1,156 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<p>
+			<u><strong>LAB RECORD TEST</strong></u></p>
+		<p>
+			Primary Actor: Patient&nbsp;</p>
+		<p>
+			<strong>Precondition:&nbsp;</strong></p>
+		<p style="margin-left: 40px;">
+			*login - by user as lab worker ID 6000</p>
+		<p style="margin-left: 40px;">
+			*when login as lab worker you get to the screen to insert patient ID&nbsp;</p>
+		<p style="margin-left: 40px;">
+			in record lab there is no way to make mistake since only when insert text - you can save the record.&nbsp;</p>
+		<p style="margin-left: 40px;">
+			TEST1: patient ID field was fiiled correctly: Acceptence test to check record is saved when patient exist&nbsp;</p>
+		<p style="margin-left: 40px;">
+			TEST2: patient ID field wasn&#39;t filled with existing patient so can&#39;t go to record screen.&nbsp;</p>
+		<p>
+			lab_test_results</p>
+		<table border="1" cellpadding="1" cellspacing="1" style="width: 200px;">
+			<tbody>
+				<tr>
+					<td>
+						fit.ActionFixture</td>
+					<td>
+						&nbsp;</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						start</td>
+					<td>
+						FIXTURES.client.LabRecord</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						lab worker ID</td>
+					<td>
+						6000</td>
+				</tr>
+				<tr>
+					<td>
+						press&nbsp;</td>
+					<td>
+						start labRecord</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						patient ID</td>
+					<td>
+						4009</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						search patient</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						patient exist&nbsp;</td>
+					<td>
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						labRef number</td>
+					<td>
+						6</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						lab record</td>
+					<td>
+						patient was here</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						save record</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						record saved</td>
+					<td>
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						lab worker ID</td>
+					<td>
+						6000</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						start labRecord</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						patient ID</td>
+					<td>
+						200567055</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						search patient</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						patient exist</td>
+					<td>
+						false</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,183 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<p>
+			&nbsp;</p>
+		<p>
+			<u><strong>Add new appointmenet - The Table PLEASE SEE AddNewApptUSECASE for use case!!!!</strong></u></p>
+		<p>
+			&nbsp;</p>
+		<table border="1" cellpadding="1" cellspacing="1" style="width: 200px;">
+			<tbody>
+				<tr>
+					<td>
+						fit.ActionFixture</td>
+					<td>
+						&nbsp;</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						start</td>
+					<td>
+						FIXTURES.client.AppointmentController</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						start createNewAppointment</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						doctor type</td>
+					<td>
+						Eyes</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						select doctor type&nbsp;</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						doctor type available for patient</td>
+					<td>
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						clinic ID &nbsp;and Doctor</td>
+					<td>
+						1</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						date</td>
+					<td>
+						2016-06-22</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						choose date</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						valid date</td>
+					<td>
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						hour</td>
+					<td>
+						09:30</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						create appointment</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						appointment created</td>
+					<td>
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						start createNewAppointment</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						doctor type</td>
+					<td>
+						Eyes</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						select doctor type</td>
+					<td>
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						check</td>
+					<td>
+						doctor type available for patient&nbsp;</td>
+					<td>
+						true</td>
+				</tr>
+				<tr>
+					<td>
+						enter</td>
+					<td>
+						clinic ID and Doctor</td>
+					<td>
+						1</td>
+				</tr>
+				<tr>
+					<td>
+						enter&nbsp;</td>
+					<td>
+						date</td>
+					<td>
+						2016-05-22</td>
+				</tr>
+				<tr>
+					<td>
+						press</td>
+					<td>
+						valid date</td>
+					<td>
+						false</td>
+				</tr>
+				<tr>
+					<td>
+						check&nbsp;</td>
+					<td>
+						appointment created</td>
+					<td>
+						false</td>
+				</tr>
+			</tbody>
+		</table></body>
+</html>
